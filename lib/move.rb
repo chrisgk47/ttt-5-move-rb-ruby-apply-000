@@ -12,7 +12,5 @@ end
 
 def move(board, index, char = "X")
   board[index] = char
-end
-
-def user_input(board, char)
+  board
 end
